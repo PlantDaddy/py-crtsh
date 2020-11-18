@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="py-crtsh",
-    version="0.0.1c",
+    version="0.0.3",
     author="Plant Daddy",
     author_email="CqP5TZ77NYBf5uQt@protonmail.com",
     description="A simple package to do basic queries of crt.sh",
