@@ -1,0 +1,6 @@
+.idea/
+dist/
+py_crtsh_PlantDaddy.egg-info/
+build/
+__pycache__/
+py_crtsh.egg-info/
