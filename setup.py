@@ -5,16 +5,17 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="py-crtsh",
-    version="0.0.1b",
+    version="0.0.1c",
     author="Plant Daddy",
     author_email="CqP5TZ77NYBf5uQt@protonmail.com",
     description="A simple package to do basic queries of crt.sh",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/PlantDaddy/py-crtsh",
+    license="BSD",
     install_requires=['scrapy', 'requests'],
     packages=setuptools.find_packages(),
-    project_urls= {'Tracker': 'https://github.com/PlantDaddy/py-crtsh'},
+    project_urls={'Tracker': 'https://github.com/PlantDaddy/py-crtsh'},
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: BSD License",
